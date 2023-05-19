@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__logo {
+    width: 30px;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    margin-left: 1.5rem;
+}
