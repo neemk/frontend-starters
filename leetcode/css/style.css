@@ -166,7 +166,6 @@ nav a {
 
 .topics {
   line-height: 2;
-  padding: 1rem;
 }
 
 .btn-topic {
@@ -195,7 +194,7 @@ nav a {
 }
 
 .categories {
-  padding: 0 1rem 1rem;
+  padding-top: 1rem;
 }
 
 .btn-category {
@@ -204,4 +203,31 @@ nav a {
   border-radius: 9999px;
   padding: .5rem 1rem;
   border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: .5rem;
+}
+
+th {
+  text-align: left;
+  color: #3c3c4399;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+tr:first-of-type {
+  border-bottom: 1px solid;
+  border-color: rgb(240 240 240 / 1);
+}
+
+tr:not(:first-child):nth-of-type(2n+1) {
+  background-color: rgb(247 248 250 / 1);
 }
