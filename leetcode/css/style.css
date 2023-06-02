@@ -95,7 +95,7 @@ select {
 
 body {
   font-family: var(--font-family);
-  font-size: 16px;
+  font-size: .875rem;
   color: rgb(38 38 38 / 1);
 }
 
@@ -121,6 +121,7 @@ header {
 
 nav a {
   color: #262626bf;
+  font-size: 1rem;
 }
 
 .nav-list {
@@ -205,10 +206,13 @@ nav a {
   border: none;
 }
 
+.table-container {
+  padding-top: 1.5rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 14px;
 }
 
 th,
@@ -220,7 +224,6 @@ th {
   text-align: left;
   color: #3c3c4399;
   font-weight: normal;
-  font-size: 14px;
 }
 
 tr:first-of-type {
